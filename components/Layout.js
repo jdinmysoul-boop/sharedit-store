@@ -74,8 +74,8 @@ export default function Layout({ children }) {
       {/* Footer */}
       <footer className={`bg-white border-t border-gray-200 py-12 ${isDetailPage ? 'mt-0 border-t-0' : 'mt-20'}`}>
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-gray-400 text-xs mb-2">&copy; 2026 SharedIT. All rights reserved.</p>
-         
+          <p className="text-gray-400 text-xs mb-2">&copy; 2026 SharedIT. All rights reserved. </p>
+           <p className="text-gray-400 text-xs mb-2"> 문의하기: 031-212-1710   /   master@sharedit.co.kr </p>
         </div>
       </footer>
 
