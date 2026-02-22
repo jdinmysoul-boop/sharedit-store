@@ -75,10 +75,7 @@ export default function Layout({ children }) {
       <footer className={`bg-white border-t border-gray-200 py-12 ${isDetailPage ? 'mt-0 border-t-0' : 'mt-20'}`}>
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-gray-400 text-xs mb-2">&copy; 2026 SharedIT. All rights reserved.</p>
-          <div className="flex justify-center gap-4 text-xs text-gray-400">
-            
-            <a href={`mailto:${siteConfig.adminEmail}`} className="hover:underline">문의하기</a>
-          </div>
+         
         </div>
       </footer>
 
