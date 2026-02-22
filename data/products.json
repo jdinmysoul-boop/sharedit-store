@@ -1,0 +1,375 @@
+[
+  {
+    "id": "E-1",
+    "category": "eDM",
+    "name": "eDM 발송",
+    "headline": "타겟의 메일함으로 \n 가장 정확하게 도착",
+    "subhead": "1.7만 명의 IT 담당자에게 당신의 솔루션을 직접 배달하세요.",
+    "price": 1500000,
+    "type": "main",
+    "detailTemplate": "type_edm",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/eDM.png",
+    "detailImages": [],
+    "options": ["E-2"]
+  },
+  {
+    "id": "E-2",
+    "parentId": "E-1",
+    "category": "eDM",
+    "name": "eDM 디자인 + HTML 코딩",
+    "headline": "전문가의 손길로 완성되는 최적의 레이아웃",
+    "subhead": "",
+    "price": 500000,
+    "type": "option",
+    "detailTemplate": "none",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/eDM_option.png"
+  },
+  {
+    "id": "B-1",
+    "category": "배너",
+    "name": "메인 슬라이드(A형)",
+    "headline": "시선을 사로잡는 가장 강력한 첫인상",
+    "subhead": "모든 페이지 우측 하단에서, 고객의 눈길을 확실하게 끕니다.",
+    "price": 5000000,
+    "type": "main",
+    "detailTemplate": "type_video",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/Banner_A.png",
+    "referenceImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/Banner_A.png",
+    "stats": [
+      { "label": "월간 노출", "value": "400,000+", "sub": "PV 기준" },
+      { "label": "평균 클릭률", "value": "1.70%", "sub": "높은 주목도" }
+    ]
+  },
+  {
+    "id": "B-2",
+    "category": "배너",
+    "name": "상단 고정(B형)",
+    "headline": "언제나 그 자리에, 흔들리지 않는 존재감",
+    "subhead": "모든 페이지 상단에 고정되어 지속적인 노출을 보장합니다.",
+    "price": 3000000,
+    "type": "main",
+    "detailTemplate": "type_video",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/Banner_B.png",
+    "referenceImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/Banner_B.png",
+    "stats": [
+      { "label": "월간 노출", "value": "350,000+", "sub": "전체 페이지" },
+      { "label": "평균 클릭률", "value": "0.35%", "sub": "지속적 노출" }
+    ]
+  },
+  {
+    "id": "B-3",
+    "category": "배너",
+    "name": "콘텐츠 중간(C형)",
+    "headline": "콘텐츠의 흐름 속에 자연스럽게 스며들다",
+    "subhead": "사용자의 시선이 머무는 게시판 한가운데 위치합니다.",
+    "price": 2000000,
+    "type": "main",
+    "detailTemplate": "type_video",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/Banner_C.png",
+    "referenceImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/Banner_C.png",
+    "stats": [
+      { "label": "월간 노출", "value": "200,000+", "sub": "게시글 조회" },
+      { "label": "평균 클릭률", "value": "0.25%", "sub": "자연스러운 유입" }
+    ]
+  },
+  {
+    "id": "B-4",
+    "category": "배너",
+    "name": "우측 사이드(D형)",
+    "headline": "정보 옆에 나란히, 눈길이 가는 위치에",
+    "subhead": "게시판 우측 영역에서 사용자의 탐색 과정을 함께합니다.",
+    "price": 1000000,
+    "type": "main",
+    "detailTemplate": "type_video",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/Banner_D.png",
+    "referenceImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/Banner_D.png",
+    "stats": [
+      { "label": "월간 노출", "value": "150,000+", "sub": "우측 고정" },
+      { "label": "평균 클릭률", "value": "0.15%", "sub": "보조 노출" }
+    ]
+  },
+  {
+    "id": "B-5",
+    "category": "배너",
+    "name": "게시판 상단(E형)",
+    "headline": "잠재 고객에게 가장 먼저 알리는 행사 정보",
+    "subhead": "세미나/웨비나 관심 고객에게 집중적으로 노출됩니다.",
+    "price": 1000000,
+    "type": "main",
+    "detailTemplate": "type_video",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/Banner_E.png",
+    "referenceImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/Banner_E.png",
+    "stats": [
+      { "label": "월간 노출", "value": "50,000+", "sub": "타겟 게시판" },
+      { "label": "평균 클릭률", "value": "0.50%", "sub": "높은 관련성" }
+    ]
+  },
+  {
+    "id": "W-1",
+    "category": "웨비나",
+    "name": "웨비나 통합 패키지",
+    "headline": "1시간의 몰입 \n 팬을 만드는 가장 빠른 방법",
+    "subhead": "기획부터 홍보와 송출, 결과 보고까지. 웨비나의 모든 것을 담았습니다.",
+    "price": 4000000,
+    "type": "main",
+    "detailTemplate": "type_webinar",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/W_Package.png",
+    "youtubeLink": "https://youtu.be/561QfjpRxzE",
+    "options": ["VO-3"]
+  },
+  {
+    "id": "W-2",
+    "category": "웨비나",
+    "name": "웨비나 촬영 & 편집",
+    "headline": "고품질 영상 제작을 위한 \n 합리적인 선택",
+    "subhead": "전문 장비와 인력으로 당신의 발표를 빛나게 합니다.",
+    "price": 1000000,
+    "type": "main",
+    "detailTemplate": "type_webinar",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/W_Shooting.png",
+    "options": ["W-6", "W-3", "VO-3"]
+  },
+  {
+    "id": "W-6",
+    "parentId": "W-2",
+    "category": "웨비나",
+    "name": "전문 MC 섭외",
+    "headline": "매끄러운 진행을 원한다면",
+    "subhead": "",
+    "price": 1000000,
+    "type": "option",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/webinar_reference_mc.png"
+  },
+  {
+    "id": "W-3",
+    "parentId": "W-2",
+    "category": "웨비나",
+    "name": "말자막 추가",
+    "headline": "놓치지 않는 메시지 전달",
+    "subhead": "",
+    "price": 500000,
+    "type": "option",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/webinar_reference_subtitle.png"
+  },
+  {
+    "id": "W-5",
+    "category": "웨비나",
+    "name": "웨비나 송출 대행",
+    "headline": "끊김 없는 안정적인 라이브 송출",
+    "subhead": "기술적인 걱정 없이 발표에만 집중하세요.",
+    "price": 2000000,
+    "type": "main",
+    "detailTemplate": "type_webinar",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/W_Broadcasting.png",
+    "options": ["W-7"]
+  },
+   {
+    "id": "W-7",
+    "parentId": "W-5",
+    "category": "웨비나",
+    "name": "참석자 기프티콘",
+    "headline": "참석률을 높이는 확실한 보상",
+    "subhead": "",
+    "price": 500000,
+    "type": "option",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/Option_giveaway.png"
+  },
+  {
+    "id": "V-1",
+    "category": "영상 콘텐츠",
+    "name": "쉐어드잇수다",
+    "headline": "교실에서 배우는 재미난 IT",
+    "subhead": "딱딱한 IT 이야기를 쉽고 재미있게 풀어냅니다",
+    "price": 6000000,
+    "type": "main",
+    "detailTemplate": "type_video",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/V_Itsuda.png",
+    "options": ["VO-1", "VO-3"],
+    "detailImages": [
+      "https://via.placeholder.com/1200x800?text=Suda+Detail+1",
+      "https://via.placeholder.com/1200x800?text=Suda+Detail+2"
+    ]    
+  },
+  {
+    "id": "V-2",
+    "category": "영상 콘텐츠",
+    "name": "쉐어드살롱 (토크쇼)",
+    "headline": "업계 전문가들과 함께하는\n 고품격 토크쇼",
+    "subhead": "편안한 분위기 속에서 깊이 있는 인사이트를 나눕니다",
+    "price": 3000000,
+    "type": "main",
+    "detailTemplate": "type_video",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/V_Salon.png",
+    "options": ["VO-2", "W-7", "VO-3"],
+    "detailImages": [
+      "https://via.placeholder.com/1200x800?text=Salon+Detail+1",
+      "https://via.placeholder.com/1200x800?text=Salon+Detail+2"
+    ]
+   },
+  {
+    "id": "V-3",
+    "category": "영상 콘텐츠",
+    "name": "솔루션 리뷰 영상",
+    "headline": "핵심 기능을 임팩트 있게, \n 솔루션 리뷰",
+    "subhead": "전문 리뷰어의 시연과 해설로 솔루션의 특징을 소개합니다",
+    "price": 2000000,
+    "type": "main",
+    "detailTemplate": "type_video",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/V_Review.png",
+     "options": ["VO-3"], 
+    "detailImages": [
+      "https://via.placeholder.com/1200x800?text=Review+Detail+1",
+      "https://via.placeholder.com/1200x800?text=Review+Detail+2"
+    ]
+  },
+  {
+    "id": "VO-1",
+    "category": "영상 옵션",
+    "name": "웨비나 통합 패키지",
+    "headline": "기획부터 송출까지 원스톱 해결",
+    "subhead": "",
+    "price": 4000000,
+    "type": "option",
+    "detailTemplate": "none",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/webinar_package_reference.png"
+  },
+  {
+    "id": "VO-2",
+    "category": "영상 옵션",
+    "name": "웨비나 송출 대행",
+    "headline": "끊김 없는 안정적인 라이브 송출",
+    "subhead": "",
+    "price": 2000000,
+    "type": "option",
+    "detailTemplate": "none",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/webinar_shooting_reference.png"
+  },
+  {
+    "id": "VO-3",
+    "category": "영상 옵션",
+    "name": "하이라이트 숏폼 5개 제작",
+    "headline": "트렌디한 숏폼으로 바이럴 효과 극대화",
+    "subhead": "",
+    "price": 1000000,
+    "type": "option", 
+    "detailTemplate": "none",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/Option_Shortform.png" 
+  },
+  
+  
+   {
+    "id": "T-1",
+    "category": "텍스트 콘텐츠",
+    "name": "칼럼 작성",
+    "headline": "깊이 있는 통찰, \n 이해하기 쉬운 칼럼",
+    "subhead": "단순한 정보 전달을 넘어, 업계 리더로서의 권위를 세워드립니다",
+    "price": 2000000,
+    "type": "main",
+    "detailTemplate": "type_webinar",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/Text.png",
+    "options": ["T-2"]
+  },
+  {
+    "id": "T-2",
+    "parentId": "T-1",
+    "category": "텍스트 콘텐츠",
+    "name": "PDF 백서 디자인",
+    "headline": "정보의 가치를 높이는 프리미엄 디자인",
+    "subhead": "",
+    "price": 1000000,
+    "type": "option",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/Option_text_whitepaper.png"
+  },
+  {
+    "id": "SV-1",
+    "category": "설문조사",
+    "name": "100개 리드 보증",
+    "headline": "확실한 리드, 결과로 증명하다",
+    "subhead": "막연한 기대가 아닌, 보증된 100개의 잠재 고객 DB를 받아보세요.",
+    "price": 3000000,
+    "type": "main",
+    "detailTemplate": "type_edm",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/Survey.png",
+    "options": ["SV-2"]
+  },
+   {
+    "id": "SV-2",
+    "parentId": "SV-1",
+    "category": "설문조사",
+    "name": "100개 리드 추가",
+    "headline": "더 많은 잠재 고객이 필요하다면",
+    "subhead": "",
+    "price": 1000000,
+    "type": "option",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/Option_survey_100leads.png"
+  },
+  {
+    "id": "S-1",
+    "category": "세미나",
+    "name": "오프라인 세미나 (30명)",
+    "headline": "고객과 직접 만나는 진짜 경험",
+    "subhead": "온라인을 넘어, 눈을 맞추고 나누는 대화 속에서 기회를 찾으세요.",
+    "price": 5000000,
+    "type": "main",
+    "detailTemplate": "type_webinar",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/Seminar.png",
+    "options": ["S-2"]
+  },
+   {
+   "id": "S-2",
+    "parentId": "S-1",
+    "category": "세미나",
+    "name": "온라인 송출 추가", 
+    "headline": "세미나의 가치를 온라인으로 확장",
+    "subhead": "현장 녹화본을 추후 웨비나로 재송출하여 추가 리드를 확보하세요.",
+    "price": 4000000,
+    "type": "option",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/detailpage/seminar_reference_2.png"
+  },
+    {
+    "id": "C-1",
+    "category": "컨퍼런스",
+    "name": "컨퍼런스",
+    "headline": "업계 최신 트렌드와 소식을 한자리에서",
+    "subhead": "대규모 컨퍼런스를 통해 시장의 흐름을 주도하세요.",
+    "price": 0,
+    "type": "main",
+    "detailTemplate": "type_webinar",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/Conference.png"
+  },
+  {
+    "id": "A-1",
+    "category": "앰배서더",
+    "name": "테크 패널 인사이트",
+    "headline": "50인 전문가의 날카롭고 솔직한 피드백",
+    "subhead": "현업 IT 담당자들이 제시하는 생생한 목소리를 만나보세요.",
+    "price": 4000000,
+    "type": "main",
+    "detailTemplate": "type_video",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/A_Insight.png"
+  },
+  {
+    "id": "A-2",
+    "category": "앰배서더",
+    "name": "테크 패널 라운드테이블",
+    "headline": "테이블 위에서 펼쳐지는 정점의 인사이트",
+    "subhead": "검증된 전문가들이 모여 귀사의 비즈니스 과제를 심도 있게 논의합니다.",
+    "price": 4000000,
+    "type": "main",
+    "detailTemplate": "type_video",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/A_RoundTable.png"
+      },
+  {
+    "id": "A-3",
+    "category": "앰배서더",
+    "name": "테크 패널 콘텐츠 웨비나",
+    "headline": "깊은 통찰력을 함께 나누다",
+    "subhead": "라운드테이블의 핵심 내용을 웨비나 콘텐츠로 재가공합니다.",
+    "price": 4000000,
+    "type": "main",
+    "detailTemplate": "type_video",
+    "heroImage": "https://sharedit.speedgabia.com/shareditad/2026/thumbnail/A_Webinar.png",
+    "options": []
+  }
+
+]
