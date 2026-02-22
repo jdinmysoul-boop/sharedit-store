@@ -6,11 +6,8 @@ export const siteConfig = {
   logo: "/logo.png", 
   logoWidth: 140, 
 
-  // [견적서 수신 이메일]
-  adminEmail: "dh.jang@sharedit.co.kr",
-  
+
   links: {
-    youtube: "https://youtube.com/@SharedIT",
     home: "https://sharedit.co.kr"
   }
 };
