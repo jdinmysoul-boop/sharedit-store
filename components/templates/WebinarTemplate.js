@@ -224,7 +224,7 @@ export default function WebinarTemplate({ product }) {
             {getLabel()}
           </h2>
           <h1 className="text-4xl md:text-7xl font-bold mb-6 leading-tight whitespace-pre-line bg-clip-text text-transparent bg-gradient-text">
-            {isOfflineEvent ? (isConference ? "혁신을 경험하는 거대한 무대,\nTech Conference." : "화면 너머,\n고객과 눈을 맞추는 진짜 경험.") : product.headline}
+            {isOfflineEvent ? (isConference ? "혁신을 경험하는 거대한 무대,\nIT 컨퍼런스" : "화면 너머,\n고객과 눈을 맞추는 진짜 경험.") : product.headline}
           </h1>
           <p className="text-xl md:text-2xl text-gray-500 font-medium max-w-3xl mx-auto whitespace-pre-line">
             {getSubhead()}
