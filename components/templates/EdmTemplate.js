@@ -78,7 +78,7 @@ export default function EdmTemplate({ product }) {
         <div className="text-lg text-gray-600 space-y-4 leading-relaxed">
           <p>
             타 매체보다 전체 모수는 적을 수 있습니다. 하지만 허수는 없습니다. <br />
-            쉐어드IT의 1.8만 명은 단순 관심자가 아닌, 현업에서 IT를 고민하는 <strong className="text-primary">100% 실무자</strong>입니다.
+            쉐어드IT의 2만 명은 단순 관심자가 아닌, 현업에서 IT를 고민하는 <strong className="text-primary">100% 실무자</strong>입니다.
           </p>
           <p>
             정교한 타겟팅 기술은 필요 없습니다. <br />이곳에 모인 모두가 당신의 타겟이기 때문입니다.
