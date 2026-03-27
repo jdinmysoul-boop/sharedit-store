@@ -166,6 +166,7 @@ export default function EdmTemplate({ product }) {
         </div>
       </section>
 
+      {/* 💡 수정된 부분: 예상 성과 영역 하단에 DB 예시 추가 */}
       <section className="max-w-6xl mx-auto px-6 py-24">
         <h3 className="text-2xl font-bold text-[#1d1d1f] mb-12">예상 성과 (Performance)</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -177,11 +178,30 @@ export default function EdmTemplate({ product }) {
             </div>
           ))}
         </div>
-        <p className="mt-6 text-center text-gray-400 text-xs font-medium">
+        <p className="mt-6 text-center text-gray-400 text-xs font-medium mb-20">
           {isSurvey 
             ? "* 설문조사 응답자가 100명을 넘을 경우 전체 응답자 중 100명을 선택할 수 있습니다." 
             : "* 위 지표는 평균 수치이며, 콘텐츠 제목 및 내용에 따라 실제 결과는 달라질 수 있습니다."}
         </p>
+
+        {/* 👇 eDM일 경우에만 노출되는 '주요 DB 예시' 영역 👇 */}
+        {!isSurvey && (
+          <div className="mt-20 border-t border-gray-100 pt-20 animate-fade-in-up">
+            <h3 className="text-2xl font-bold text-[#1d1d1f] mb-8">주요 DB 예시</h3>
+            <div className="w-full bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-200">
+              {/* 이미지 URL은 실제 준비하신 이미지 주소로 변경해주세요! */}
+              <img 
+                src="https://sharedit.speedgabia.com/shareditad/2026/detailpage/eDM_db_sample.png" 
+                alt="주요 DB 예시" 
+                className="w-full h-auto object-cover"
+                onError={(e) => {
+                  // 이미지가 없을 때 보여줄 임시 플레이스홀더 (테스트용)
+                  e.target.src = "https://via.placeholder.com/1200x600/f5f5f7/888888?text=DB+Example+Image+Here";
+                }}
+              />
+            </div>
+          </div>
+        )}
       </section>
 
       <section className="py-20 px-6 bg-[#f5f5f7]">
@@ -217,7 +237,7 @@ export default function EdmTemplate({ product }) {
             <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm text-center">
               <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center text-3xl mb-6 mx-auto">📧</div>
               <h4 className="text-xl font-bold text-[#1d1d1f] mb-2">타겟 eDM 발송</h4>
-              <p className="text-gray-500 text-sm text-balance">1.8만 명의 검증된 IT 회원에게 설문 참여 독려 메일을 발송합니다.</p>
+              <p className="text-gray-500 text-sm text-balance">2만 명의 검증된 IT 회원에게 설문 참여 독려 메일을 발송합니다.</p>
             </div>
             <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm text-center">
               <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center text-3xl mb-6 mx-auto">🔗</div>
