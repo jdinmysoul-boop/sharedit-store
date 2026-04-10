@@ -201,9 +201,9 @@ export default function WebinarTemplate({ product }) {
     }
     // 기본 웨비나 패키지
     return [
-      { title: "제작 (Production)", items: ["전용 스튜디오 대관", "전문 MC 진행", "1.5h 촬영 / 1h 편집", "풀자막 제공"] },
-      { title: "홍보 (Promotion)", items: ["eDM 제작 및 발송", "회원 대상 홍보", "뉴스레터 노출"] },
-      { title: "운영 (Operation)", items: ["웨비나 플랫폼 송출", "참석자 기프티콘(50명+5명)", "실시간 Q&A 관리"] },
+      { title: "제작 (Production)", items: ["쉐어드IT 스튜디오 대관", "전문 MC 진행", "1.5h 촬영 / 1h 편집", "풀자막 제공"] },
+      { title: "홍보 (Promotion)", items: ["eDM 제작 및 발송", "쉐어드IT 회원 대상 홍보", "뉴스레터 노출"] },
+      { title: "운영 (Operation)", items: ["쉐어드IT 웨비나 플랫폼 송출", "참석자 기프티콘(50명+5명)", "실시간 Q&A 관리"] },
       { title: "데이터 (Data)", items: ["등록/참석자 리스트", "질문/설문 리포트", "편집 영상 파일 제공"] }
     ];
   };
